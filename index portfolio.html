@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bollampalli Sathvika — ECE Undergraduate & Aspiring Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <!-- Remix Icon for social/UI icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== CURSOR ===================== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="navbar">
+    <a href="#home" class="nav-logo">BS<span class="accent">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#internship">Internship</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="ri-sun-line" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb-1"></div>
+    <div class="hero-orb orb-2"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-badge reveal">Available for Internships &amp; Projects</span>
+        <h1 class="hero-name reveal">Sathvika<br /><span class="outline-text">Bollampalli</span></h1>
+        <p class="hero-title reveal">ECE Undergraduate <span class="accent">|</span> Aspiring Software Developer</p>
+        <p class="hero-intro reveal">
+          I craft responsive web experiences at the intersection of electronics and software — turning curiosity into clean, functional code, one project at a time.
+        </p>
+        <div class="hero-ctas reveal">
+          <a href="Bollampalli_Sathvika_Resume.pdf" class="btn btn-primary" download>
+            <i class="ri-download-2-line"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <i class="ri-send-plane-line"></i> Get in Touch
+          </a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">1</span><span class="stat-label">Internship</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">91%</span><span class="stat-label">Intermediate</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="profile-frame">
+          <div class="profile-img-wrap">
+            <!-- Profile image placeholder -->
+            <div class="profile-placeholder">
+              <i class="ri-user-3-line"></i>
+            </div>
+          </div>
+          <div class="profile-ring ring-1"></div>
+          <div class="profile-ring ring-2"></div>
+          <!-- Floating tech badges -->
+          <div class="tech-badge badge-python"><i class="ri-code-s-slash-line"></i> Python</div>
+          <div class="tech-badge badge-react"><i class="ri-reactjs-line"></i> React</div>
+          <div class="tech-badge badge-git"><i class="ri-git-branch-line"></i> Git</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <h2 class="section-title reveal">Wired for <span class="accent">Code</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="about-lead">
+            Hi, I'm <strong>Sathvika Bollampalli</strong> — A Motivated Electronics and Communication Engineering student with a growing passion for software development, web technologies, and building things that matter.
+          </p>
+          <p>
+            My journey spans both hardware and software — from building an autonomous line-following robot with Arduino to crafting responsive web apps with React. I thrive at the intersection of embedded systems and modern web development.
+          </p>
+          <p>
+            Outside of coding, I'm completing my AI/ML internship experience, deepening my data analysis skills, and constantly exploring new technologies to add to my toolkit.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item"><i class="ri-map-pin-line"></i> Karimnagar, Telangana</div>
+            <div class="highlight-item"><i class="ri-graduation-cap-line"></i> B.Tech ECE — 2024–2028</div>
+            <div class="highlight-item"><i class="ri-briefcase-line"></i> Open to Opportunities</div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-card-inner">
+            <div class="about-card-item">
+              <span class="card-icon"><i class="ri-cpu-line"></i></span>
+              <div>
+                <strong>Background</strong>
+                <p>Electronics &amp; Communication Engineering with a passion for full-stack web development.</p>
+              </div>
+            </div>
+            <div class="about-card-item">
+              <span class="card-icon"><i class="ri-rocket-line"></i></span>
+              <div>
+                <strong>Goal</strong>
+                <p>Build impactful, responsive web applications as a software developer at a forward-thinking company.</p>
+              </div>
+            </div>
+            <div class="about-card-item">
+              <span class="card-icon"><i class="ri-heart-pulse-line"></i></span>
+              <div>
+                <strong>Interests</strong>
+                <p>React Development, AI/ML, Embedded Systems, Data Visualisation, UI/UX Design.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-title reveal">Technical <span class="accent">Arsenal</span></h2>
+      <div class="skills-grid">
+
+        <!-- Programming -->
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="ri-terminal-box-line"></i> Programming</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Python</span><span class="skill-pct">80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>JavaScript</span><span class="skill-pct">75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>C</span><span class="skill-pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Java (Basics)</span><span class="skill-pct">50%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="50"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Technologies -->
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="ri-layout-line"></i> Web Technologies</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>HTML5 &amp; CSS3</span><span class="skill-pct">88%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>React.js</span><span class="skill-pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Responsive Web Design</span><span class="skill-pct">82%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ML / Data -->
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="ri-bar-chart-grouped-line"></i> ML / Data Libraries</h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>NumPy &amp; Pandas</span><span class="skill-pct">72%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>Matplotlib</span><span class="skill-pct">70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span>MySQL</span><span class="skill-pct">65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title"><i class="ri-tools-line"></i> Tools &amp; Platforms</h3>
+          <div class="tool-chips">
+            <span class="chip"><i class="ri-git-branch-line"></i> Git</span>
+            <span class="chip"><i class="ri-code-box-line"></i> VS Code</span>
+            <span class="chip"><i class="ri-circuit-line"></i> Arduino</span>
+            <span class="chip"><i class="ri-command-line"></i> Linux</span>
+            <span class="chip"><i class="ri-cpu-line"></i> Embedded C</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTERNSHIP ===================== -->
+  <section class="section" id="internship">
+    <div class="container">
+      <div class="section-label reveal">03 — Experience</div>
+      <h2 class="section-title reveal">Internship &amp; <span class="accent">Training</span></h2>
+      <div class="internship-block reveal">
+        <div class="internship-card">
+          <div class="internship-header">
+            <div class="internship-logo"><i class="ri-brain-line"></i></div>
+            <div class="internship-meta">
+              <h3>AI / ML / Python Intern</h3>
+              <p class="internship-company">Branic Tech Solutions — Karimnagar, Telangana</p>
+              <span class="internship-duration"><i class="ri-time-line"></i> 3-Month Internship</span>
+            </div>
+            <span class="internship-badge">Completed</span>
+          </div>
+          <div class="internship-points">
+            <div class="internship-point">
+              <span class="point-icon"><i class="ri-database-2-line"></i></span>
+              <p>Applied supervised machine learning concepts including data preprocessing and model evaluation on real-world datasets, strengthening analytical problem-solving skills.</p>
+            </div>
+            <div class="internship-point">
+              <span class="point-icon"><i class="ri-line-chart-line"></i></span>
+              <p>Developed Python programs using NumPy, Pandas, and Matplotlib, performing exploratory data analysis and generating actionable visual insights.</p>
+            </div>
+            <div class="internship-point">
+              <span class="point-icon"><i class="ri-speed-line"></i></span>
+              <p>Automated data visualisation workflows, reducing manual reporting time and improving data interpretation for project teams.</p>
+            </div>
+          </div>
+          <div class="internship-tags">
+            <span>Python</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-label reveal">04 — Projects</div>
+      <h2 class="section-title reveal">What I've <span class="accent">Built</span></h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <div class="project-img-placeholder"><i class="ri-global-line"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="ri-github-line"></i> GitHub</a>
+              <a href="#" class="overlay-btn overlay-btn-accent"><i class="ri-external-link-line"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <h3 class="project-title">Responsive Web Development</h3>
+            <p class="project-desc">Built responsive websites with clean UI and mobile-friendly layouts, demonstrating front-end design best practices. Implemented 15+ C programs focused on algorithmic logic and problem-solving.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <div class="project-img-placeholder"><i class="ri-robot-line"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="ri-github-line"></i> GitHub</a>
+              <a href="#" class="overlay-btn overlay-btn-accent"><i class="ri-external-link-line"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span>Arduino</span><span>Embedded C</span><span>IR Sensors</span></div>
+            <h3 class="project-title">Autonomous Line-Following Robot</h3>
+            <p class="project-desc">Designed and assembled a sensor-based robot integrating IR sensors with an Arduino microcontroller. Programmed motor-control logic in Embedded C for smooth autonomous path detection and tracking.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <div class="project-img-placeholder"><i class="ri-image-line"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="overlay-btn"><i class="ri-github-line"></i> GitHub</a>
+              <a href="#" class="overlay-btn overlay-btn-accent"><i class="ri-external-link-line"></i> Live Demo</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3 class="project-title">Image Gallery Web Application</h3>
+            <p class="project-desc">Built a fully responsive image gallery featuring navigation and lightbox functionality. Enhanced user experience through smooth animations, hover effects, and adaptive responsive design.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-label reveal">05 — Education</div>
+      <h2 class="section-title reveal">Academic <span class="accent">Journey</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2024 — 2028</span>
+            <h3>B.Tech in Electronics &amp; Communication Engineering</h3>
+            <p class="timeline-org">Sree Chaitanya College of Engineering, Karimnagar, Telangana</p>
+            <div class="timeline-meta">
+              <span><i class="ri-book-open-line"></i> Relevant: Web Development, Python, Embedded Systems, Data Analysis</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li>Completed 3-month AI/ML internship at Branic Tech Solutions</li>
+              <li>Built an autonomous line-following robot as a core project</li>
+              <li>Active in web development and front-end design practice</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2024</span>
+            <h3>Intermediate — MPC (Mathematics, Physics, Chemistry)</h3>
+            <p class="timeline-org">SR Prime College, Karimnagar</p>
+            <div class="timeline-meta">
+              <span><i class="ri-medal-line"></i> Score: 91%</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li>Secured 91% in MPC stream</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2022</span>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="timeline-org">MIMS High School, Mancherial, Bollampalli</p>
+            <div class="timeline-meta">
+              <span><i class="ri-medal-line"></i> GPA: 9.5 / 10</span>
+            </div>
+            <ul class="timeline-achievements">
+              <li>Achieved 9.5 GPA in SSC examinations</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <div class="section-label reveal">06 — Certifications</div>
+      <h2 class="section-title reveal">Credentials &amp; <span class="accent">Courses</span></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-logo"><i class="ri-brain-line"></i></div>
+          <div class="cert-body">
+            <h3>AI/ML Internship Certificate</h3>
+            <p>Branic Tech Solutions, Karimnagar</p>
+            <span class="cert-date"><i class="ri-calendar-line"></i> 3 Months</span>
+          </div>
+          <a href="#" class="cert-badge">View <i class="ri-arrow-right-up-line"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">07 — Contact</div>
+      <h2 class="section-title reveal">Let's <span class="accent">Connect</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <p class="contact-lead">Have a project idea, internship offer, or just want to say hi? My inbox is always open.</p>
+          <div class="contact-links">
+            <a href="mailto:bollampallisathwika@gmail.com" class="contact-link">
+              <span class="contact-link-icon"><i class="ri-mail-line"></i></span>
+              <div>
+                <span class="link-label">Email</span>
+                <span class="link-value">bollampallisathwika@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+918978420161" class="contact-link">
+              <span class="contact-link-icon"><i class="ri-phone-line"></i></span>
+              <div>
+                <span class="link-label">Phone</span>
+                <span class="link-value">+91 8978420161</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/bollampallisathvika-b51a1939b" target="_blank" class="contact-link">
+              <span class="contact-link-icon"><i class="ri-linkedin-box-line"></i></span>
+              <div>
+                <span class="link-label">LinkedIn</span>
+                <span class="link-value">linkedin.com/in/bollampallisathvika</span>
+              </div>
+            </a>
+            <a href="#" target="_blank" class="contact-link">
+              <span class="contact-link-icon"><i class="ri-map-pin-line"></i></span>
+              <div>
+                <span class="link-label">Location</span>
+                <span class="link-value">Karimnagar, Telangana, India</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Internship Opportunity" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="ri-send-plane-2-line"></i> Send Message
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#home" class="footer-logo">BS<span class="accent">.</span></a>
+        <p class="footer-tagline">Building tomorrow's web, one line at a time.</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/bollampallisathvika-b51a1939b" target="_blank" aria-label="LinkedIn"><i class="ri-linkedin-box-line"></i></a>
+          <a href="mailto:bollampallisathwika@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2024 Bollampalli Sathvika. Crafted with <i class="ri-heart-fill" style="color:var(--accent)"></i> and curiosity.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
